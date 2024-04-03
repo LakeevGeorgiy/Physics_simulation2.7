@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание после лекции</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Сложения колебаний. Биения</h1>
+    <div>
+        <label>Частота колебания I осциллятор, рад/c<label> 
+        <input value="1" class="input input-1" type="text" id="x_frequency_id">
+    </div>
+    <div>
+        <label>Частота колебания II осциллятор, рад/c</label>
+        <input value="1.5" class="input input-2" type="text" id="y_frequency_id"/>
+    </div>
+    <div>
+        <label>Амплитуда колебания, B</label>
+        <input value="1" class="input input-3" type="text" id="amplitude_id" />
+    </div>
+    <div>
+        <label>Введите чисо периодов</label>
+        <input value="3" class="input input-4" type="number" id="period_id"/>
+    </div>
+    <div>
+        <button id="button_id">Построить</button>
+    </div>
+    <div id="tester"></div>
+
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+    <script src="main.js"></script>
+</body>
+</html>
