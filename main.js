@@ -67,7 +67,13 @@ function plot() {
     };
 
 	let layout = {
-		autosize: true
+		autosize: true,
+		xaxis: {
+			title: 't, c'
+		},
+		yaxis: {
+			title: 'x'
+		}
 	};
 
 	Plotly.react('tester', [first, second, third], layout);
